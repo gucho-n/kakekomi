@@ -12,6 +12,26 @@
     <!-- baseviewの大元の記述 -->
     <link rel="stylesheet" href="{{ asset('css/base/base.css') }}">
 </head>
+<header class = "header-wrapper">
+    <div class ="top-header-container">
+        <div class="top-header-innner">
+            <h1 class="title-logo">
+                <p>kakekomi</p>
+            </h1>
+            <ul class="welcome-container">
+                <li>谷口　祐人さん</li>
+                <li>Tポイント</li>
+                <li>ヘルプ</li>
+            </li>
+        </div>
+    </div>
+    <div class ="middle-header-container">
+
+    </div>
+    <div class ="inner-header-container">
+
+    </div>
+</header>
 <body>
     <p>aaa</p>
 </body>
