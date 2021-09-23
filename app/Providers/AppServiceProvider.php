@@ -23,6 +23,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        //エンコード数の設定
+        {
+            \Schema::defaultStringLength(191);
+        }
     }
 }
