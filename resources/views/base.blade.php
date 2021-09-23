@@ -37,12 +37,11 @@
                 <li class="header-link"><a href="#">口コミを書く</a> </li>
                 <li class="header-link"><a href="#">ログアウト</a> </li>           
             </ul>
-  
-
         </nav>
-        <div class ="inner-header-container">
-        <p>a</p>
-        </div>
     </header>
+    <main>
+        <!-- テンプレート使い回し -->
+        @yield
+    </main>
 </body>
 </html>
