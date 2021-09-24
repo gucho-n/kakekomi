@@ -22,8 +22,8 @@
                 </h1>
                 <ul class="welcome-container">
                     <li class="name-container">谷口　祐人さん</li>
-                    <li class="tpoint-container top-list">Tポイント</li>
-                    <li class="help-container top-list">ヘルプ</li>
+                    <li class="tpoint-container top-list"><a href="#"　class="top-link">Tポイント</a> </li>
+                    <li class="help-container top-list"><a href="#"　class="top-link">ヘルプ</a></li>
                 </li>
             </div>
         </div>
@@ -41,7 +41,7 @@
     </header>
     <main>
         <!-- テンプレート使い回し -->
-        @yield
+     
     </main>
 </body>
 </html>
