@@ -1,7 +1,10 @@
+/* トップ画像 */
 .main-header-inner-container{
     background-color: aqua;
     height: 450px;
 }
+
+/* 検索画面実装 */
 .main-header-search-wrapper{
     position: relative;
 }
@@ -25,6 +28,73 @@
     background-color: blueviolet;
     height: 70px;  
 }
-.main-prefecture-wrapper{
+
+/* メイン画面実装 */
+.main-wrapper{
+    margin-top: 55px;
+    padding: 0 70px;
+    
+}
+
+.main-wrappers{
+    margin-top: 20px;
+    padding: 10px;
+}
+.main-titles{
+    font-size: 32px;
+}
+
+.main-containers{
+    margin: 10px 140px;
+    background-color: white;
+    min-height: 200px;
+}
+
+
+/* 医療ニュース画面実装 */
+.main-information-wrapper{
+    margin-top: 100px;
+    min-height: 285px;
+    background-color: yellowgreen;
+}
+
+.main-information-container{
+    margin: 10px auto;
+    min-height: 220px;
+    background-color: white;
+}
+
+/* 都道府県別画面実装 */
+.main-prefetcure-wrapper{
+    min-height: 285px;
+    background-color: brown;
 
 }
+.main-prefecture-container{
+    margin: 10px 140px;
+    background-color: white;
+    min-height: 200px;
+}
+
+/* 症状別画面実装 */
+.main-sick-wrapper{
+    
+    min-height: 285px;
+    background-color: blue;
+
+}
+
+/* 地図別画面実装 */
+.main-map-wrapper{
+    
+    min-height: 600px;
+    background-color: yellowgreen;
+
+}
+.main-map-container{
+    margin: 10px 140px;
+    background-color: white;
+    min-height: 600px;
+
+}
+/* margin,paddingは調節ではなく、追加である */

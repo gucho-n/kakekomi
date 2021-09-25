@@ -15,5 +15,29 @@
     </div>
 
 </div>
+<div class="main-wrapper" >
+
+    <div class="main-information-wrapper main-wrappers">
+        <p class="main-information-title main-titles">医療ニュース</p>
+        <div class="main-information-container">
+            <p>ここにニュースが流れる</p>
+        </div>
+    </div>
+    <div class="main-prefetcure-wrapper main-wrappers">
+        <p class="main-prefecture-title main-titles">都道府県別</p>
+        <div class="main-prefecture-container main-containers">
+
+        </div>
+    </div>
+    <div class="main-sick-wrapper main-wrappers">
+        <p class="main-sick-title main-titles">症状別</p>
+        <div class="main-sick-container main-containers"></div>
+    </div>
+    <div class="main-map-wrapper main-wrappers">
+        <p class="main-map-title main-titles">地図別</p>  
+        <div class="main-map-container"></div>  
+    </div>
+
+</div>
 
 @endsection
