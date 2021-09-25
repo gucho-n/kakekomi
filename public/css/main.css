@@ -1,0 +1,30 @@
+.main-header-inner-container{
+    background-color: aqua;
+    height: 450px;
+}
+.main-header-search-wrapper{
+    position: relative;
+}
+.main-header-search-container{
+    position: absolute;
+    top: -55px;
+    width: 100%;
+    padding: 0 70px;
+
+}
+.main-header-search{
+    background-color: cornsilk;
+    border-radius: 3px;
+    padding: 20px 140px;
+    height: 110px;
+    /* ボックスの影を作成する */
+    /* https://wp-master.club/ */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05); 
+}
+.main-header-search-form{
+    background-color: blueviolet;
+    height: 70px;  
+}
+.main-prefecture-wrapper{
+
+}

@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="{{ asset('css/base/destyle.css') }}">
     <!-- baseviewの大元の記述 -->
     <link rel="stylesheet" href="{{ asset('css/base/base.css') }}">
+    <!-- 継承先の記述 -->
+    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+
 </head>
 
 <body>
