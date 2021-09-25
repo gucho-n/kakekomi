@@ -41,7 +41,7 @@
     </header>
     <main>
         <!-- テンプレート使い回し -->
-     
+        @yield('contents')
     </main>
 </body>
 </html>

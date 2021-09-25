@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 //画面を表示させる記述
 Route::get('/', function () {
-    return view('base');
+    return view('main');
 });
 
 
