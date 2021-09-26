@@ -17,4 +17,11 @@ Route::get('/', function () {
     return view('main');
 });
 
+Route::get('/mypage', function () {
+    return view('mypage');
+});
+
+Route::get('/makereview',function()){
+    return view('makereview')
+}
 

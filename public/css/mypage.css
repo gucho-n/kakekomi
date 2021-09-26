@@ -1,0 +1,85 @@
+/* プロフィール写真 */
+.my-page-top-picture-wrapper{
+    position: relative;
+    padding:0 100px ;
+    
+}
+.my-page-top-tab-wrapper{
+    margin: 10px auto;
+    background-color: aquamarine;
+}
+.my-page-top-picture-container{
+    height: 320px;
+    background-color: blueviolet;
+}
+.my-page-myphoto-wrapper{
+    position:relative;
+}
+.my-page-myphoto-container{
+    position: absolute;
+    top: -100px;
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen;
+}
+.my-page-myname-container{
+    background-color: aqua;
+    height: 100px;
+    padding: 10px 0px 0px 220px;
+    
+}
+
+.my-page-profile-container{
+    background-color: aquamarine;
+}
+/* メイン画面 */
+
+.my-page-main-wrapper{
+    display: flex;
+}
+
+.my-page-main-container{
+    width: 80%;
+    background-color: blue;
+    height: 1000px;
+    padding: 5px ;
+}
+
+.my-page-myhospital-wrapper{
+    margin: 20px auto;
+    padding: 10px;
+    width: 80%;
+    height: 400px;
+    background-color: white;
+}
+
+.my-page-recent-wrapper{
+    margin: 20px auto;
+    padding: 10px;
+    width: 80%;
+    height: 400px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.mypage-calendar-wrapper{
+    width: 40%;
+    height: 1000px;
+    padding: 50px;
+    background-color:yellowgreen;
+}
+.mypage-calendar{
+    margin: 10px auto;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+}
