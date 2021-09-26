@@ -10,11 +10,15 @@
     <!-- https://github.com/nicolas-cusan/destyle.css/blob/master/destyle.css -->
     <link rel="stylesheet" href="{{ asset('css/base/destyle.css') }}">
     <!-- baseviewの大元の記述 -->
-    <link rel="stylesheet" href="{{ asset('css/base/base.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/base/base.css') }}">    
+    <!-- mypageのアクセスへの記述 -->
+    <link rel="stylesheet" href="{{ asset('css/base/sidebar.css') }}">
     <!-- 継承先の記述 -->
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
-    <!-- mypageのアクセスへのの記述 -->
+    <!-- mypageのアクセスへの記述 -->
     <link rel="stylesheet" href="{{ asset('css/mypage.css') }}">
+    <!-- mypageのアクセスへの記述 -->
+    <link rel="stylesheet" href="{{ asset('css/makereview.css') }}">
 
 </head>
 

@@ -1,0 +1,47 @@
+/* 口コミを見る */
+.makereview-wrapper{
+    padding: 20px 30px;
+    display: flex;
+}
+.makereview-sidebar{
+    margin: 10px;
+    padding: 20px;
+    background-color: wheat;
+    width: 20%;
+    min-height: 500px;
+
+}
+.makeview-sidebar-title{
+    font-size: 16px;
+}
+
+.makeview-sidebar-titles{
+    font-size: 16px;
+    margin:10px;
+}
+.makeview-sidebar-containers{
+    margin:10px 20px;
+    background-color: white;
+}
+.makeview-sidebar-map-container{
+    margin:10px 20px;
+    background-color: white;
+    min-height: 200px;
+}
+
+/* 口コミを書く */
+
+.makeview-main-wrapper{
+    margin: 10px;
+    width: 80%; 
+    padding: 20px;
+    background-color: yellowgreen;
+}
+.makeview-main-title{
+    font-size: 32px;
+}
+.makeview-main-containers{
+    min-height: 50px;
+    margin: 20px 50px;
+
+}

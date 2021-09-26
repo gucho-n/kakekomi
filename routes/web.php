@@ -21,7 +21,7 @@ Route::get('/mypage', function () {
     return view('mypage');
 });
 
-Route::get('/makereview',function()){
-    return view('makereview')
-}
+Route::get('/makereview',function(){
+    return view('makereview');
+});
 
