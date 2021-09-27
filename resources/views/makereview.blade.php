@@ -25,7 +25,7 @@
     </article>
     <div class="makeview-main-wrapper">
             <h1 class="reviewplace-main-sick-selector-title">新規口コミを書く</h1>
-            <div class="makeview-main-container">
+            <div class="reviewplace-main-sick-wrapper">
                 <div class="makeview-main-containers">
                     <p class="makeview-main-titles">病院名</p> 
                     <input type="text">          
@@ -40,29 +40,7 @@
                     <p class="makeview-main-titles">電話番号</p>      
                     <input type="text">         
                 </div>
-<!-- 口コミを記入する -->
-                <!-- <div class="makeview-main-containers">
-                    <p class="makeview-main-titles">診断結果</p>  
-                    <input type="text">             
-                </div>
 
-                <div class="makeview-main-containers">
-                    <p class="makeview-main-titles">経過（病状は良くなったか）</p>   
-                    <input type="text">            
-                </div>
-
-                <div class="makeview-main-containers">
-                    <p class="makeview-main-titles">医者の対応</p>           
-                    <input type="text">    
-                </div>
-                <div class="makeview-main-containers">
-                    <p class="makeview-main-titles">受付の対応</p>           
-                    <input type="text">    
-                </div>
-                <div class="makeview-main-containers">
-                    <p class="makeview-main-titles">待ち時間</p>       
-                    <input type="text">        
-                </div> -->
             </div>
 
     </div>

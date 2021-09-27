@@ -29,3 +29,10 @@ Route::get('/findhospitalbyplace',function(){
     return view('findhospitalbyplace');
 });
 
+Route::get('findhospitalbysick',function(){
+    return view('findhospitalbysick');
+});
+
+Route::get('/result',function(){
+    return view('result');
+});

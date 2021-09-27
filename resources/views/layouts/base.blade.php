@@ -17,8 +17,15 @@
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
     <!-- mypageのアクセスへの記述 -->
     <link rel="stylesheet" href="{{ asset('css/mypage.css') }}">
-    <!-- mypageのアクセスへの記述 -->
+    <!-- makereviewのアクセスへの記述 -->
     <link rel="stylesheet" href="{{ asset('css/makereview.css') }}">
+    <!-- 場所から病院のアクセスへの記述 -->
+    <link rel="stylesheet" href="{{ asset('css/findhospitalbyplace.css') }}">
+    <!-- 病状から病院のアクセスへの記述 -->
+    <link rel="stylesheet" href="{{ asset('css/findhospitalbysick.css') }}">
+       <!-- 病院の結果への記述 -->
+       <link rel="stylesheet" href="{{ asset('css/result.css') }}">
+
 
 </head>
 

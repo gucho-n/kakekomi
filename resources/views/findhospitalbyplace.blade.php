@@ -24,28 +24,32 @@
     </div>
 
     </article>
-    <div class="reviewplace-main-wrapper">
-        <div class="reviewplace-main-place-container">
+    <div class="findplace-main-wrapper">
+        <div class="findplace-main-place-container">
             <p>かながわけん>相模原市</p>
         </div>       
-        <div class="reviewplace-main-sick-selector-container">
-            <p class="reviewplace-main-sick-selector-title">病状</p>
-            <div class="reviewplace-main-containers">
-            <p class="reviewplace-main-titles">病院名</p> 
-            <input type="text">          
+        <div class="findplace-main-sick-selector-container">
+            <div class="findplace-main-containers">
+            <!-- datalist,option用を挿入する -->
+            <label for="sick-select" class="findplace-sick-select">病状を選択してください</label>
+            <input type="text" id="sick-list" name="sick-select"> 
+                <datalist id="sick-list">
+                    <option value="谷口クリニック">
+                    <option value="野村クリニック">
+                </datalist>
+            
         </div>
+         <ul class="findplace-result-container">
+             <li class="findplace-results">住所</li> 
+             <li class="findplace-results">住所</li> 
+             <li class="findplace-results">住所</li> 
+        </ul>
+        <!-- Googleマップ実装予定 -->
+        <ul class="findplace-map-container">
+             <li class="findplace-results">地図</li> 
+         
+        </ul>
 
-                <div class="makeview-main-containers">
-                    <p class="makeview-main-titles">住所</p> 
-                    <input type="text">              
-                </div>
-
-                <div class="makeview-main-containers">
-                    <p class="makeview-main-titles">電話番号</p>      
-                    <input type="text">         
-                </div>
-
-            </div>
 
     </div>
 

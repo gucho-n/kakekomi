@@ -1,3 +1,6 @@
+reviewplace-result-container
+
+
 /* 口コミを見る */
 .makereview-wrapper{
     padding: 20px 30px;
@@ -9,6 +12,7 @@
     background-color: wheat;
     width: 20%;
     min-height: 500px;
+    max-height: 500px;
 
 }
 .makeview-sidebar-title{
@@ -31,17 +35,24 @@
 
 /* 口コミを書く */
 
-.makeview-main-wrapper{
-    margin: 10px;
+.findsick-main-wrapper{
+    margin: 10px 100px;
     width: 80%; 
-    padding: 20px;
-    background-color: yellowgreen;
-}
-.makeview-main-title{
-    font-size: 32px;
-}
-.makeview-main-containers{
-    min-height: 50px;
-    margin: 20px 50px;
+    min-height: 800px;
+    padding: 30px;
+    background-color: yellow;
 
+}
+.findsick-main-title{
+    margin: 10px 0;
+}
+.findsick-main-sick-rank-container{
+    margin: 10px 0;
+    min-height: 200px;
+    background-color: white;
+}
+.findsick-map-container{
+    width: 100px;
+    height: 100px;
+    background-color: white;
 }

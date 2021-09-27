@@ -1,0 +1,76 @@
+
+/* 口コミを見る */
+.makereview-wrapper{
+    padding: 20px 30px;
+    display: flex;
+}
+.makereview-sidebar{
+    margin: 10px;
+    padding: 20px;
+    background-color: wheat;
+    width: 20%;
+    min-height: 500px;
+    max-height: 500px;
+
+}
+.makeview-sidebar-title{
+    font-size: 16px;
+}
+
+.makeview-sidebar-titles{
+    font-size: 16px;
+    margin:10px;
+}
+.makeview-sidebar-containers{
+    margin:10px 20px;
+    background-color: white;
+}
+.makeview-sidebar-map-container{
+    margin:10px 20px;
+    background-color: white;
+    min-height: 200px;
+}
+
+/* 病院名を書く */
+
+.result-main-wrapper{
+    padding: 50px; 
+    width: 70%;  
+}
+.result-main-container{
+    background-color: teal;
+    padding: 30px;
+    width: 100%;
+    min-height: 1200px;
+    max-height: 1200px;
+}
+.result-main-title{
+    font-size: 32px;
+ 
+}
+.result-main-picture{
+    margin: 20px 0px;
+    background-color: white;
+    min-height: 150px;
+    max-height: 150px;
+}
+
+.result-main-detail{
+    margin: 20px 0px;
+    background-color: white;
+    min-height: 150px;
+    max-height: 150px;
+}
+
+.result-main-review-container{
+    margin: 20px 0px;
+    background-color: white;
+    min-height: 100px;
+    max-height: 100px;
+}
+.result-main-review-map-container{
+    width: 100%;
+    min-height: 400px;
+    max-height: 400px;
+    background-color: white;
+}
