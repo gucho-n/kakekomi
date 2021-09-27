@@ -24,7 +24,7 @@
 
     </article>
     <div class="makeview-main-wrapper">
-            <h1 class="makeview-main-title">新規口コミを書く</h1>
+            <h1 class="reviewplace-main-sick-selector-title">新規口コミを書く</h1>
             <div class="makeview-main-container">
                 <div class="makeview-main-containers">
                     <p class="makeview-main-titles">病院名</p> 

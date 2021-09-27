@@ -25,3 +25,7 @@ Route::get('/makereview',function(){
     return view('makereview');
 });
 
+Route::get('/findhospitalbyplace',function(){
+    return view('findhospitalbyplace');
+});
+
