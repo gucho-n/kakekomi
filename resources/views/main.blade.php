@@ -25,9 +25,13 @@
     </div>
     <div class="main-prefetcure-wrapper main-wrappers">
         <p class="main-prefecture-title main-titles">都道府県別</p>
-        <div class="main-prefecture-container main-containers">
+        <ul class="main-prefecture-container main-containers">
+            <li class="has-sub">
+                <a href="#">北海道</a>
+                <ul class=""></ul>
 
-        </div>
+            </li>
+        </ul>
     </div>
     <div class="main-sick-wrapper main-wrappers">
         <p class="main-sick-title main-titles">症状別</p>

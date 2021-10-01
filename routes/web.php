@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 //画面を表示させる記述
+
+Route::get('/','App\Http\Controllers\MainController@index')->name('main');
+
+
+
 Route::get('/', function () {
     return view('main');
 });

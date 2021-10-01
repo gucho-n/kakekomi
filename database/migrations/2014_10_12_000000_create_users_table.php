@@ -21,6 +21,13 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
+            //追加
+            $table->string('right');
+            $table->string('myreview');
+            $table->integer('age');
+            $table->integer('weight');
+            $table->integer('review_id');
+            $table->integer('hospital_id');
         });
     }
 
